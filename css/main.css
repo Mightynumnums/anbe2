@@ -71,5 +71,11 @@ footer{
 	margin: 50px auto;
 }
 
+.car-photo img {
+	margin: auto;
+	height: 500px;
+	width: auto;
+}
+
 
 

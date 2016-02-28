@@ -4,16 +4,19 @@
 	<title>ABaccam Photo</title>
 	<link rel ="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="slick-1.5.9/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick-1.5.9/slick/slick-theme.css">
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans|Nixie+One|Wire+One' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 
-<header class="name">
-	<h1 class="title">Anbe Baccam</h1>
-	<h2 class="title">photographer</h2>
-</header>
+	<header class="name">
+		<h1 class="title">Anbe Baccam</h1>
+		<h2 class="title">photographer</h2>
+	</header>
 
-<div class="main-head">
+	<div class="main-head">
 		<ul class="navigation">
 			<li class="menu3 item"><a href="#home">Home</a></li>
 			<li class="menu4 item"><a href="#about">Portraits</a></li>
@@ -26,8 +29,18 @@
 
 
 
+	<!--image carousel-->
 
-<div class="info" id="about">
+	<div class="fade car-photo">
+  		<div><img src="img/pool.jpeg"></div>
+  		<div><img src="img/sundress.jpg"></div>
+  		<div><img src="img/fireescape.jpg"></div>
+	</div>
+
+
+
+
+	<div class="info" id="about">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -48,5 +61,23 @@
     <footer>
     	<p>&copy; 2016 Anbe Baccam Photography</p>
     </footer>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick-1.5.9/slick/slick.min.js"></script>
+	
+	<script type="text/javascript">
+	    $(document).ready(function(){
+	      	$('.fade').slick({
+				dots: true,
+				infinite: true,
+				speed: 500,
+				fade: true,
+				cssEase: 'linear'
+			});
+	    });
+	</script>
+
+						
     <body>
     </html>
