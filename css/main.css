@@ -1,9 +1,12 @@
+/******************MAIN ELEMENTS******************/
+
+
 body {
 	background: white;
 	width: 80%;
 	margin: auto;
 	padding: auto;
-	font-family: "Work Sans";
+	font-family: "Muli";
 	font-weight: 70;
 }
 
@@ -12,9 +15,6 @@ a {
 	color: black;
 }
 
-.navigation a:hover{
-	border-bottom: 2px solid black;
-}
 
 li {
 	list-style: none;
@@ -27,33 +27,54 @@ header{
 }
 
 footer{
+	width: 100%;
 	text-align: center;
+	padding-top: 30px;
+	border-top: 2px solid #949193;
+	min-height: calc(100vh-89px);
 }
+
+/******************BACK TO TOP******************/
+
 #bringmeback{
 	text-align: center;
 	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
-.name h2{
-	margin-top: -15px;
-	font-weight: 100;
-}
-h1{
-	font-weight: 120;
+#bringmeback a:hover{
+	color: #DBC8D5
 }
 
 
+
+/******************MAIN HEADER******************/
 
 .main-head{
 	display: inline-block;
 	margin-top: 10px;
 	float: right;
 }
+.name h2{
+	margin-top: -15px;
+}
+
+/******************NAV BAR******************/
+
 
 .navigation li{
 	font-size: 1.25em;
 	padding: 10px 10px;
 }
+
+.navigation a:hover{
+	border-bottom: 2px solid #DBC8D5;
+	color: #DBC8D5;
+}
+
+
+/******************SOCIAL CONTACT ICONS******************/
+
 
 .contact{
 	display: flex;
@@ -66,6 +87,9 @@ h1{
 	width: 60px;
 	padding: 10px 20px;
 }
+
+/******************INFO******************/
+
 .info p{
 	width: 70%;
 	text-align: center;
@@ -77,6 +101,9 @@ h1{
 	margin: 50px auto;
 }
 
+/******************CAROUSEL******************/
+
+
 .car-photo img {
 	margin: auto;
 	height: 500px;
@@ -84,6 +111,38 @@ h1{
 }
 .fade {
 	margin-top: 50px;
+}
+
+
+
+
+
+
+/******************MEDIA Q******************/
+
+@media (max-width:400px) {
+	body{
+		text-align: center;
+	}
+	.car-photo img{
+		height:200px;	
+	}
+
+	.fade{
+		margin-top: 150px;
+	}
+
+	.contact img{
+		height: 40px;
+		width: 40px;
+	}
+
+	.main-head{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		align-items: center
+	}
 }
 
 

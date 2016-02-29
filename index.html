@@ -8,6 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="slick-1.5.9/slick/slick.css">
 	<link rel="stylesheet" type="text/css" href="slick-1.5.9/slick/slick-theme.css">
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans|Nixie+One|Wire+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Muli:300' rel='stylesheet' type='text/css'>
+
+
 
 </head>
 <body>
@@ -37,6 +40,8 @@
   		<div><img src="img/sundress.jpg"></div>
   		<div><img src="img/fireescape.jpg"></div>
 	</div>
+
+	<!--image carousel-->
 
 
 
@@ -69,13 +74,15 @@
 	
 	<script type="text/javascript">
 	    $(document).ready(function(){
-	      	$('.fade').slick({
+	    	var parameters = {
 				dots: true,
 				infinite: true,
 				speed: 500,
 				fade: true,
 				cssEase: 'linear'
-			});
+			}
+
+	      	$('.fade').slick(parameters);
 	    });
 	</script>
 
