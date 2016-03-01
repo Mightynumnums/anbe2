@@ -5,9 +5,15 @@ body {
 	background: white;
 	width: 80%;
 	margin: auto;
-	padding: auto;
+	
+
 	font-family: "Muli";
 	font-weight: 70;
+	text-align: center;
+}
+ul {
+	padding: 0;
+	margin: 0;
 }
 
 a {
@@ -32,6 +38,7 @@ footer{
 	padding-top: 30px;
 	border-top: 2px solid #949193;
 	min-height: calc(100vh-89px);
+	font-size: .75em;
 }
 
 /******************BACK TO TOP******************/
@@ -50,22 +57,35 @@ footer{
 
 /******************MAIN HEADER******************/
 
-.main-head{
-	display: inline-block;
-	margin-top: 10px;
-	float: right;
+.name  h1,
+		h2{
+	float: left;
 }
 .name h2{
-	margin-top: -15px;
+	size: .5em;
+	margin-top: -20px;
+	font-weight: 100;
+	padding-bottom: 25px;
+	
 }
+
+.navigation {
+	margin-top: 5px;
+	display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
 
 /******************NAV BAR******************/
 
 
 .navigation li{
 	font-size: 1.25em;
-	padding: 10px 10px;
+	padding: 5px 15px;
 }
+
+
 
 .navigation a:hover{
 	border-bottom: 2px solid #DBC8D5;
@@ -98,7 +118,7 @@ footer{
 }
 
 .info {
-	margin: 50px auto;
+	margin: 60px auto;
 }
 
 /******************CAROUSEL******************/
@@ -106,7 +126,7 @@ footer{
 
 .car-photo img {
 	margin: auto;
-	height: 500px;
+	height: 250px;
 	width: auto;
 }
 .fade {
@@ -120,30 +140,74 @@ footer{
 
 /******************MEDIA Q******************/
 
-@media (max-width:400px) {
+@media (min-width: 768px) {
 	body{
-		text-align: center;
+		text-align: justify;
 	}
-	.car-photo img{
-		height:200px;	
-	}
-
-	.fade{
-		margin-top: 150px;
-	}
-
-	.contact img{
-		height: 40px;
-		width: 40px;
-	}
-
 	.main-head{
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: space-between;
-		align-items: center
+		display: inline-block;
+		margin-top: 10px;
+		float: right;
+	}
+
+	.navigation{
+		margin-top: 20px;
+	}
+
+	
+	.name h1,
+			h2  {
+		float: none;
+	}
+
+	.car-photo img {
+		margin: auto;
+		height: 450px;
+		width: auto;
+	}
+
+	.fade {
+		margin-top: 25px;
+		}
+	.name h2{
+		size: .5em;
+		margin-top: -20px;
+		border-bottom: none;
 	}
 }
 
+
+
+@media (min-width: 1224px) {
+	body{
+		text-align: justify;
+	}
+	.name h1,
+			h2		{
+		float: none;
+	}
+
+	.navigation{
+		margin-top: 20px;
+	}
+	.car-photo img {
+		margin: auto;
+		height: 550px;
+		width: auto;
+	}
+
+	.main-head{
+		display: inline-block;
+		margin-top: 10px;
+		float: right;
+	}
+
+	.fade {
+		margin-top: -10px;
+	}
+
+}
+
+	
 
 
