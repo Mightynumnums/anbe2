@@ -37,8 +37,11 @@
 
 	<div class="fade car-photo">
   		<div><img src="img/pool.jpeg"></div>
+  		<div><img src="img/horse2.jpg"></div>
   		<div><img src="img/sundress.jpg"></div>
+  		<div><img src="img/title.jpg"></div>
   		<div><img src="img/fireescape.jpg"></div>
+  		
 	</div>
 
 	<!--image carousel-->
@@ -54,10 +57,10 @@
 		</p>
 	</div>
 
-	<div class="contact">
-		<div class="fb follow"><a href="https://www.facebook.com/abaccam/"><img src="svg/aFB copy.svg"></a></div>
-		<div class="insta follow"><a href="https://www.instagram.com/abaccam/"><img src="svg/ainsta copy.svg"></a></div>
-		<div class="mail follow"><a href="mailto:anbebaccam@abaccam.com"><img src="svg/amail copy.svg"></a></div>
+	<div class="contact" id="follow">
+		<div class="fb social"><a href="https://www.facebook.com/abaccam/"><img src="svg/aFB copy.svg"></a></div>
+		<div class="insta social"><a href="https://www.instagram.com/abaccam/"><img src="svg/ainsta copy.svg"></a></div>
+		<div class="mail social"><a href="mailto:anbebaccam@abaccam.com"><img src="svg/amail copy.svg"></a></div>
     </div>
     <div id="bringmeback">
     	<a href="#top">Back to top &raquo;</a>
@@ -75,6 +78,8 @@
 	    $(document).ready(function(){
 	    	var parameters = {
 				dots: true,
+				autoplay: true,
+				autoPlayTimer: 3000,
 				infinite: true,
 				speed: 500,
 				fade: true,

@@ -30,6 +30,7 @@ li {
 header{
 	display: inline-block;
 	margin: auto;
+	margin-right: 20px;
 }
 
 footer{
@@ -60,17 +61,19 @@ footer{
 .name  h1,
 		h2{
 	float: left;
+	letter-spacing: 3px;
 }
 .name h2{
 	size: .5em;
 	margin-top: -20px;
 	font-weight: 100;
-	padding-bottom: 25px;
+	letter-spacing: 5px;
 	
 }
 
 .navigation {
 	margin-top: 5px;
+	margin-bottom: 5px;
 	display: inline-flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -81,8 +84,9 @@ footer{
 
 
 .navigation li{
-	font-size: 1.25em;
-	padding: 5px 15px;
+	font-size: 1.2em;
+	padding: 5px 10px;
+	letter-spacing: .5px;
 }
 
 
@@ -103,18 +107,28 @@ footer{
 }
 
 .contact img{
-	height: 60px;
-	width: 60px;
+	height: 40px;
+	width: 40px;
 	padding: 10px 20px;
+}
+
+.social img:hover{
+	opacity: .4;
+}
+.contact {
+	padding-top: 50px;
+	
 }
 
 /******************INFO******************/
 
 .info p{
+	display: none;
 	width: 70%;
-	text-align: center;
+	text-align: justify-all;
 	margin: auto;
 	padding: 20px;
+	line-height: 30px;
 }
 
 .info {
@@ -130,8 +144,9 @@ footer{
 	width: auto;
 }
 .fade {
-	margin-top: 50px;
+	margin-top: 40px;
 }
+
 
 
 
@@ -140,7 +155,7 @@ footer{
 
 /******************MEDIA Q******************/
 
-@media (min-width: 768px) {
+@media (min-width: 570px) {
 	body{
 		text-align: justify;
 	}
@@ -150,14 +165,79 @@ footer{
 		float: right;
 	}
 
+	.name 
+	h1,
+	h2 {
+		float: none;
+	}
+
+	.car-photo img {
+		margin: auto;
+		height: 350px;
+		width: auto;
+	}
+
+	.fade {
+		margin-top: 120px;
+		}
+
+	.name h2{
+		size: .5em;
+		margin-top: -20px;
+		border-bottom: none;
+	}
+	.navigation{
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+	.navigation li{
+		font-size: 1.25em;
+		padding: 5px 10px;
+		letter-spacing: .5px;
+}
+	
+
+}
+
+
+@media (min-width: 760px) {
+
 	.navigation{
 		margin-top: 20px;
 	}
 
+	.fade {
+		margin-top: 130px;
+		}
+		.main-head{
+		float: left;
+	}
+}
+
+@media (min-width: 900px) {
+
+	.main-head{
+		display: inline-block;
+		margin-top: 10px;
+	}
 	
-	.name h1,
-			h2  {
-		float: none;
+	.navigation {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+
+	.navigation li{
+		padding-right: 20px;
+		font-size: 1.25em;
+}
+	.info p{
+		display: block;
+		width: 60%;
+		text-align: justify-all;
+		margin: auto;
+		padding: 20px;
+		line-height: 30px;
 	}
 
 	.car-photo img {
@@ -165,46 +245,39 @@ footer{
 		height: 450px;
 		width: auto;
 	}
+}
 
-	.fade {
-		margin-top: 25px;
-		}
-	.name h2{
-		size: .5em;
-		margin-top: -20px;
-		border-bottom: none;
+@media (min-width: 1123px){
+	.main-head{
+		float: right;
 	}
 }
 
 
-
 @media (min-width: 1224px) {
-	body{
-		text-align: justify;
+	body{ margin-top: 20px; 
 	}
-	.name h1,
-			h2		{
+	
+	.name 
+	h1,
+	h2 {
 		float: none;
 	}
 
 	.navigation{
 		margin-top: 20px;
+		justify-content: space-between;
 	}
-	.car-photo img {
-		margin: auto;
-		height: 550px;
-		width: auto;
-	}
-
-	.main-head{
-		display: inline-block;
-		margin-top: 10px;
-		float: right;
-	}
+	.navigation li{
+		font-size: 1.25em;
+		padding: 5px 15px;
+		letter-spacing: .5px;
+}
 
 	.fade {
-		margin-top: -10px;
+		margin-top: 30px;
 	}
+
 
 }
 
