@@ -1,0 +1,292 @@
+/******************MAIN ELEMENTS******************/
+
+
+body {
+	background: white;
+	width: 80%;
+	margin: auto;
+	font-family: "Muli";
+	font-weight: 70;
+	text-align: center;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+header{
+	display: inline-block;
+	margin: auto;
+	margin-right: 20px;
+}
+
+footer{
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	border-top: 2px solid #949193;
+	min-height: calc(100vh-89px);
+	font-size: .75em;
+}
+
+/******************BACK TO TOP******************/
+
+#bringmeback{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#bringmeback a:hover{
+	color: #DBC8D5
+}
+
+
+
+/******************MAIN HEADER******************/
+
+.name  h1,
+		h2{
+	float: left;
+	letter-spacing: 3px;
+}
+.name h2{
+	size: .5em;
+	margin-top: -20px;
+	font-weight: 100;
+	letter-spacing: 5px;
+	
+}
+
+
+/******************NAV BAR******************/
+
+.navigation {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.navigation li{
+	font-size: 1.2em;
+	padding: 5px 10px;
+	letter-spacing: .5px;
+}
+
+.navigation a:hover{
+	border-bottom: 2px solid black;
+	color: black
+}
+.active {
+	color: #DBC8D5;
+}
+
+
+/******************SOCIAL CONTACT ICONS******************/
+
+
+.contact{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.contact img{
+	height: 40px;
+	width: 40px;
+	padding: 10px 20px;
+}
+
+.social img:hover{
+	opacity: .4;
+}
+.contact {
+	padding-top: 50px;
+	
+}
+
+/******************INFO******************/
+
+.info p{
+	display: none;
+	width: 70%;
+	text-align: justify-all;
+	margin: auto;
+	padding: 20px;
+	line-height: 30px;
+}
+
+.info {
+	margin: 60px auto;
+}
+
+/******************CAROUSEL******************/
+
+
+.car-photo img {
+	margin: auto;
+	height: 250px;
+	width: auto;
+}
+.fade {
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+/******************MEDIA Q******************/
+
+@media (min-width: 570px) {
+	body{
+		text-align: justify;
+	}
+	.main-head{
+		display: inline-block;
+		margin-top: 10px;
+		float: right;
+	}
+
+	.name 
+	h1,
+	h2 {
+		float: none;
+	}
+
+	.car-photo img {
+		margin: auto;
+		height: 350px;
+		width: auto;
+	}
+
+	.fade {
+		margin-top: 120px;
+		}
+
+	.name h2{
+		size: .5em;
+		margin-top: -20px;
+		border-bottom: none;
+	}
+	.navigation{
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+	.navigation li{
+		font-size: 1.25em;
+		padding: 5px 10px;
+		letter-spacing: .5px;
+}
+	
+
+}
+
+
+@media (min-width: 760px) {
+
+	.navigation{
+		margin-top: 20px;
+	}
+
+	.fade {
+		margin-top: 130px;
+		}
+		.main-head{
+		float: left;
+	}
+}
+
+@media (min-width: 900px) {
+
+	.main-head{
+		display: inline-block;
+		margin-top: 10px;
+	}
+	
+	.navigation {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+
+	.navigation li{
+		padding-right: 20px;
+		font-size: 1.25em;
+}
+	.info p{
+		display: block;
+		width: 60%;
+		text-align: justify-all;
+		margin: auto;
+		padding: 20px;
+		line-height: 30px;
+	}
+
+	.car-photo img {
+		margin: auto;
+		height: 450px;
+		width: auto;
+	}
+	.contact img{
+	height: 60px;
+	width: 60px;
+	padding: 10px 20px;
+}
+}
+
+@media (min-width: 1123px){
+	.main-head{
+		float: right;
+	}
+	.fade {
+		margin-top: 15px;
+	}
+}
+
+
+@media (min-width: 1224px) {
+	body{ margin-top: 5px; 
+	}
+
+	.name 
+	h1,
+	h2 {
+		float: none;
+	}
+
+	.navigation{
+		margin-top: 20px;
+		justify-content: space-between;
+	}
+	.navigation li{
+		font-size: 1.25em;
+		padding: 5px 15px;
+		letter-spacing: .5px;
+}
+
+	.fade {
+		margin-top: 25px;
+	}
+
+
+}
+
+	
+
+
