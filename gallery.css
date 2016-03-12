@@ -123,31 +123,26 @@ footer{
 
 /* ------------GALLERY ----------- */
 
-.container2 {
+.container2,
+.container3,
+.container4 {
 	min-height: 100vh;
 	height: 50%;
 	margin-top: 40px;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-around;
+	justify-content: center;
 }
 
-.gallery img{
+.gallery img {
 	height: 380px;
 	width: auto;
 	margin: 10px 10px;
 
 }
 
-.container3 {
-	min-height: 100vh;
-	height: 50%;
-	margin-top: 40px;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-start;
-}
-.gallery3 img{
+.gallery3 img,
+.gallery4 img  {
 	height: 200px;
 	width: auto;
 	margin: 10px;
@@ -187,17 +182,21 @@ footer{
 		letter-spacing: .5px;
 }
 	.container2,
-	.container3 {
+	.container3,
+	.container4 {
 		min-height: 100vh;
 		height: 50%;
 		margin-top: 100px;
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: flex-start;
+		justify-content: center;
 }
 
-	.gallery img{
-		height: 300px;
+	.gallery img,
+	.gallery2 img,
+	.gallery3 img,
+	.gallery4 img {
+		height: 250px;
 		width: auto;
 		margin: 10px 10px;
 
@@ -236,10 +235,10 @@ footer{
 		font-size: 1.25em;
 	}
 	
-	.contact img{
-	height: 60px;
-	width: 60px;
-	padding: 10px 20px;
+	.contact img {
+		height: 60px;
+		width: 60px;
+		padding: 10px 20px;
 	}
 }
 
@@ -253,7 +252,6 @@ footer{
 
 
 @media (min-width: 1224px) {
-
 	.name 
 	h1,
 	h2 {
@@ -268,6 +266,11 @@ footer{
 		font-size: 1.25em;
 		padding: 5px 15px;
 		letter-spacing: .5px;
+	}
+	.container2,
+	.container3,
+	.container4 {
+		margin-top: 50px;
 	}
 
 }
