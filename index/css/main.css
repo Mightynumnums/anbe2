@@ -47,12 +47,24 @@ h3{
 /******************CONTACT PAGE CSS!!!******************/
 
 .getintouch{
-	margin-top: 75px;
+	margin-top: 85px;
 	margin-bottom: 140px;
 }
 
+.contactnav {
+	display: inline-block;
+	margin: 0;
+}
+
 .contactnav h3{
-	margin-bottom: 40px;
+	margin: 0 0 4px 0;
+}
+.callemail {
+	margin-top: 40px;
+}
+.callemail a:hover{
+	border-bottom: 1px solid black;
+	font-weight: 700;
 }
 
 
@@ -306,9 +318,12 @@ h3{
 	.fade {
 		margin-top: 25px;
 	}
-		.getintouch {
+
+	.getintouch {
+		display: block;
 		margin-top: 80px;
 }
+
 
 
 }
