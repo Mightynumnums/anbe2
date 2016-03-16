@@ -35,9 +35,9 @@ footer{
 	width: 100%;
 	text-align: center;
 	padding-top: 30px;
-	border-top: 2px solid #949193;
 	min-height: calc(100vh-89px);
 	font-size: .75em;
+	margin-bottom: 20px;
 }
 
 /******************BACK TO TOP******************/
@@ -118,6 +118,7 @@ footer{
 }
 .contact {
 	padding-top: 50px;
+	margin-top: 200px;
 	
 }
 
@@ -271,6 +272,19 @@ footer{
 	.container3,
 	.container4 {
 		margin-top: 50px;
+		justify-content:  flex-start;
+		
+
+
 	}
+	.gallery img {
+	margin: 10px 15px 0 0;
+
+}
+
+.gallery3 img,
+.gallery4 img  {
+	margin: 10px 15px 0 0;
+}
 
 }

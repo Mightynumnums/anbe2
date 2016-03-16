@@ -35,9 +35,9 @@ footer{
 	width: 100%;
 	text-align: center;
 	padding-top: 30px;
-	border-top: 2px solid #949193;
 	min-height: calc(100vh-89px);
 	font-size: .75em;
+	margin-bottom: 20px;
 }
 h3{
 	font-weight: 700;
@@ -84,19 +84,20 @@ h3{
 
 /******************MAIN HEADER******************/
 
-.name  h1,
-		h2{
+
+.name   h1,
+		h2,
+		 {
 	float: left;
 	letter-spacing: 3px;
 }
+
 .name h2{
 	size: .5em;
 	margin-top: -20px;
 	font-weight: 100;
-	letter-spacing: 5px;
-	
+	letter-spacing: 5px;	
 }
-
 
 /******************NAV BAR******************/
 
@@ -143,6 +144,7 @@ h3{
 }
 .contact {
 	padding-top: 50px;
+	margin-top: 200px;
 	
 }
 
