@@ -72,7 +72,7 @@ h3{
 
 #bringmeback{
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 30px;
 }
 
@@ -134,9 +134,9 @@ h3{
 }
 
 .contact img{
-	height: 40px;
-	width: 40px;
-	padding: 10px 20px;
+	height: 50px;
+	width: 50px;
+	padding: 10px 10px;
 }
 
 .social img:hover{
@@ -144,7 +144,7 @@ h3{
 }
 .contact {
 	padding-top: 50px;
-	margin-top: 200px;
+	margin-top: 100px;
 	
 }
 
@@ -177,15 +177,12 @@ h3{
 
 
 
-
-
-
-
 /******************MEDIA Q******************/
 
-@media (min-width: 570px) {
+@media only screen and (min-width: 480px) {
 	body{
 		text-align: justify;
+		background-color: green;
 	}
 	.main-head{
 		display: inline-block;
@@ -194,9 +191,9 @@ h3{
 	}
 
 	.name 
-	h1,
-	h2 {
-		float: none;
+		h1,
+		h2 {
+			float: none;
 	}
 
 	.car-photo img {
@@ -207,17 +204,20 @@ h3{
 
 	.fade {
 		margin-top: 120px;
-		}
+	}
 
 	.name h2{
 		size: .5em;
 		margin-top: -20px;
 		border-bottom: none;
 	}
+
 	.navigation{
 		flex-flow: row wrap;
-		justify-content: space-around;
+		justify-content: flex-start;
+		margin-left: -10px;
 	}
+
 	.navigation li{
 		font-size: 1.25em;
 		padding: 5px 10px;
@@ -231,21 +231,27 @@ h3{
 }
 
 
-@media (min-width: 760px) {
+@media only screen and (min-width: 760px) {
+	body{
+		background-color: magenta;
+	}
 
 	.navigation{
 		margin-top: 20px;
 	}
 
 	.fade {
-		margin-top: 130px;
+		margin-top: 120px;
 		}
 		.main-head{
 		float: left;
 	}
 }
 
-@media (min-width: 900px) {
+@media only screen and (min-width: 900px) {
+	body{
+		background-color: grey;
+	}
 
 	.main-head{
 		display: inline-block;
@@ -261,7 +267,12 @@ h3{
 	.navigation li{
 		padding-right: 20px;
 		font-size: 1.25em;
-}
+	}
+
+	.main-head{
+		float: right;
+	}
+
 	.info p{
 		display: block;
 		width: 60%;
@@ -273,32 +284,19 @@ h3{
 
 	.car-photo img {
 		margin: auto;
-		height: 450px;
+		height: 400px;
 		width: auto;
 	}
 	.contact img{
-	height: 60px;
-	width: 60px;
-	padding: 10px 20px;
-}
-}
-
-@media (min-width: 1123px){
-	.main-head{
-		float: right;
+		height: 60px;
+		width: 60px;
+		padding: 10px 20px;
 	}
-	.fade {
-		margin-top: 15px;
-	}
-		.getintouch {
-		margin-top: 100px;
 }
-
-}
-
 
 @media (min-width: 1224px) {
-	body{ margin-top: 5px; 
+	body{ margin-top: 5px;
+	background-color: lavender; 
 	}
 
 	.name 
@@ -315,7 +313,7 @@ h3{
 		font-size: 1.25em;
 		padding: 5px 15px;
 		letter-spacing: .5px;
-}
+	}
 
 	.fade {
 		margin-top: 25px;
