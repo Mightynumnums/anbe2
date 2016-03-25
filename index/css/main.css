@@ -9,6 +9,7 @@ body {
 	font-weight: 70;
 	text-align: center;
 }
+
 ul {
 	padding: 0;
 	margin: 0;
@@ -39,6 +40,7 @@ footer{
 	font-size: .75em;
 	margin-bottom: 20px;
 }
+
 h3{
 	font-weight: 700;
 }
@@ -59,9 +61,11 @@ h3{
 .contactnav h3{
 	margin: 0 0 4px 0;
 }
+
 .callemail {
 	margin-top: 40px;
 }
+
 .callemail a:hover{
 	border-bottom: 1px solid black;
 	font-weight: 700;
@@ -119,6 +123,7 @@ h3{
 	border-bottom: 2px solid black;
 	color: black
 }
+
 .active {
 	color: #DBC8D5;
 }
@@ -134,8 +139,8 @@ h3{
 }
 
 .contact img{
-	height: 50px;
-	width: 50px;
+	height: 60px;
+	width: 60px;
 	padding: 10px 10px;
 }
 
@@ -183,8 +188,8 @@ h3{
 @media only screen and (min-width: 480px) {
 	body{
 		text-align: justify;
-		background-color: green;
 	}
+
 	.main-head{
 		display: inline-block;
 		margin-top: 10px;
@@ -233,10 +238,7 @@ h3{
 
 
 @media only screen and (min-width: 760px) {
-	body{
-		background-color: magenta;
-	}
-
+	
 	.navigation{
 		margin-top: 20px;
 	}
@@ -250,9 +252,6 @@ h3{
 }
 
 @media only screen and (min-width: 900px) {
-	body{
-		background-color: grey;
-	}
 
 	.main-head{
 		display: inline-block;
@@ -288,6 +287,7 @@ h3{
 		height: 400px;
 		width: auto;
 	}
+
 	.contact img{
 		height: 60px;
 		width: 60px;
@@ -297,7 +297,6 @@ h3{
 
 @media (min-width: 1224px) {
 	body{ margin-top: 5px;
-	background-color: lavender; 
 	}
 
 	.name 
@@ -310,6 +309,7 @@ h3{
 		margin-top: 20px;
 		justify-content: space-between;
 	}
+
 	.navigation li{
 		font-size: 1.25em;
 		padding: 5px 15px;
