@@ -3,7 +3,7 @@
 
 body {
 	background: white;
-	width: 80%;
+	width: 96%;
 	margin: auto;
 	font-family: "Muli";
 	font-weight: 70;
@@ -139,8 +139,8 @@ h3{
 }
 
 .contact img{
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 	padding: 10px 10px;
 }
 
@@ -242,7 +242,10 @@ h3{
 }
 
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 768px) {
+	body{
+		width: 80%;
+	}
 	
 	.navigation{
 		margin-top: 20px;
