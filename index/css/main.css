@@ -149,13 +149,13 @@ h3{
 	justify-content: center;
 }
 
-.contact img{
-	height: 40px;
-	width: 40px;
+.contact img {
+	height: 50px;
+	width: 50px;
 	padding: 10px 10px;
 }
 
-.social img:hover{
+.social img:hover {
 	opacity: .4;
 }
 
@@ -167,7 +167,7 @@ h3{
 
 /******************INFO******************/
 
-.info p{
+.info p {
 	display: none;
 	width: 70%;
 	text-align: justify-all;
@@ -202,7 +202,7 @@ h3{
 		text-align: justify;
 	}
 
-	.main-head{
+	.main-head {
 		display: inline-block;
 		margin-top: 10px;
 		float: right;
@@ -224,34 +224,36 @@ h3{
 		margin-top: 120px;
 	}
 
-	.name h2{
+	.name h2 {
 		size: .5em;
 		margin-top: -20px;
 		border-bottom: none;
 	}
 
-	.navigation{
+	.navigation {
 		flex-flow: row wrap;
 		justify-content: flex-start;
 		margin-left: -10px;
 	}
 
-	.navigation li{
+	.navigation li {
 		font-size: 1.25em;
 		padding: 5px 10px;
 		letter-spacing: .5px;
-}
+	}
+
 	.getintouch {
 		margin-top: 100px;
     	text-align: center;
 	}
-}
-	.contact img{
-	padding: 10px 20px;
-	height: 50px;
-	width: 50px;
+
+	.contact img {
+	padding: 10px 10px;
+	height: 60px;
+	width: 60px;
 	}
-	.profilepic{
+
+	.profilepic {
 		display: block;
 		text-align: center;
 	}
