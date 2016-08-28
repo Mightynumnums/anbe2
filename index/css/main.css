@@ -26,13 +26,13 @@ li {
 	display: inline;
 }
 
-header{
+header {
 	display: inline-block;
 	margin: auto;
 	margin-right: 20px;
 }
 
-footer{
+footer {
 	width: 100%;
 	text-align: center;
 	padding-top: 30px;
