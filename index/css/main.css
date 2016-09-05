@@ -328,6 +328,29 @@ h3 {
 		height: 55px;
 		width: auto;
 	}
+
+	.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto;
+}
 }
 
 @media only screen and (min-width: 900px) {
@@ -410,29 +433,11 @@ h3 {
 		margin-top: 25px;
 	}
 
-	.container {
-		height: auto;
-		align-content: center;
-		justify-content: center;
-	}
-
-	.container img {
-		width: 100%;
-	}
-
-	.gallery img {
-		height: auto;
-		width: 175px;
-	
-}
 
 
-		
-	}
-	.horizontal img {
-		height: 255px;
-		width: auto;
-	}
+
+
+
 
 
 }
