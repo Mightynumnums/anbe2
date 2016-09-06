@@ -316,17 +316,12 @@ h3 {
 	}
 	.container {
 		align-content: flex-start;
-		justify-content: center;
+		justify-content: flex-start;
 	}
 
 	.gallery img {
 		height: auto;
 		width: 200px;
-	}
-
-	.horizontal img {
-		height: 55px;
-		width: auto;
 	}
 
 	.thumbnail {
@@ -409,7 +404,7 @@ h3 {
 	body { 
 		background-color: purple;
 		margin-top: 5px;
-		width: 75%;
+
 	}
 
 	.name 
@@ -431,6 +426,10 @@ h3 {
 
 	.fade {
 		margin-top: 25px;
+	}
+	.fade img {
+		width: auto;
+		height: 500px;
 	}
 
 
