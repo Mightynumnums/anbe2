@@ -96,8 +96,6 @@ h3 {
 
 
 /******************MAIN HEADER******************/
-
-
 .name   h1,
 		h2,
 		 {
@@ -113,7 +111,9 @@ h3 {
 }
 
 /******************NAV BAR******************/
-
+.main-head {
+	display: none;
+}
 .navigation {
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -122,7 +122,7 @@ h3 {
 	justify-content: center;
 }
 
-.navigation li{
+.navigation li {
 	font-size: 1.2em;
 	padding: 5px 10px;
 	letter-spacing: .5px;
@@ -137,6 +137,29 @@ h3 {
 	color: #DBC8D5;
 }
 
+/******************SLICKNAV CSS******************/
+
+.slicknav_menu {
+	background: white;
+	font-size: 20px;
+}
+ .slicknav_menu .slicknav_menutxt {
+    display: none;
+ } 
+  .slicknav_menu .slicknav_icon-bar {
+    background-color: black; 
+}
+.slicknav_btn {
+	background-color: white;
+	text-shadow: none;
+}
+ .slicknav_menu .slicknav_menutxt {
+ 	box-shadow: none;
+ }
+
+.slicknav_nav a {
+  color: black;
+   }
 
 /******************SOCIAL CONTACT ICONS******************/
 
@@ -182,7 +205,6 @@ h3 {
 
 /******************CAROUSEL******************/
 
-
 .car-photo img {
 	margin: auto;
 	height: 250px;
@@ -192,6 +214,7 @@ h3 {
 .fade {
 	margin-top: 40px;
 }
+
 
 
 /* ------------GALLERY ----------- */
@@ -219,13 +242,12 @@ h3 {
 
 @media only screen and (min-width: 480px) {
 	body{
-		background-color: yellow;
 		width: 75%;
 		text-align: justify;
 	}
 
 	.main-head {
-		display: inline-block;
+		display: none;
 		margin-top: 10px;
 		float: right;
 	}
@@ -240,6 +262,7 @@ h3 {
 		margin: auto;
 		height: 350px;
 		width: auto;
+
 	}
 
 	.fade {
@@ -286,7 +309,6 @@ h3 {
 		margin: 50px auto;
 		align-content: flex-start;
 		justify-content: center;
-
 	}
 
 	.gallery img {
@@ -297,7 +319,6 @@ h3 {
 
 @media only screen and (min-width: 768px) {
 	body{
-		background-color: teal;
 		width: 95%;
 	}
 	
@@ -342,6 +363,7 @@ h3 {
       -ms-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
 }
+
 .thumbnail img.portrait {
   width: 100%;
   height: auto;
@@ -349,14 +371,14 @@ h3 {
 }
 
 @media only screen and (min-width: 900px) {
-	body {
-		background-color: orange;
-	}
 
 	.main-head {
 		display: inline-block;
 		margin-top: 10px;
 	}
+	.slicknav_menu {
+	display: none;
+}
 	
 	.navigation {
 		display: flex;
@@ -391,20 +413,15 @@ h3 {
 }
 
 @media only screen and (min-width: 1035px) {
-	body {
-		background-color: lime;
-	}
-
 	.main-head {
 		float: right;
 	}
 }
 
+
 @media (min-width: 1224px) {
 	body { 
-		background-color: purple;
 		margin-top: 5px;
-
 	}
 
 	.name 
@@ -431,12 +448,6 @@ h3 {
 		width: auto;
 		height: 500px;
 	}
-
-
-
-
-
-
 
 
 }
