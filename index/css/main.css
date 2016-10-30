@@ -245,6 +245,10 @@ h3 {
 		width: 75%;
 		text-align: justify;
 	}
+	header h1,h2 {
+		margin-top: -40px;
+		margin-left: 10px;
+	}
 
 	.main-head {
 		display: none;
@@ -371,6 +375,9 @@ h3 {
 }
 
 @media only screen and (min-width: 900px) {
+		header h1,h2 {
+		margin-top: 28px;
+	}
 
 	.main-head {
 		display: inline-block;
