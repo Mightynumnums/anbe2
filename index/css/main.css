@@ -246,8 +246,15 @@ h3 {
 		text-align: justify;
 	}
 	header h1,h2 {
-		margin-top: -40px;
+		margin-top: -5px;
 		margin-left: 10px;
+	}
+
+	.slicknav_nav {
+		margin-bottom: 20px;
+	}
+	.slicknav_nav li {
+		text-align: center;
 	}
 
 	.main-head {
